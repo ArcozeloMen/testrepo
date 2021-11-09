@@ -6,10 +6,10 @@ metadata:
   namespace: crossplane-system
 spec:
   providerConfigRef:
-    name: default  #aws-provider-config
+    name: default  # aws-provider-config
   forProvider:
     region: eu-west-1
-    dbInstanceClass: db.t3.small
+    dbInstanceClass: db.t3.micro
     masterUsername: masteruser
     allocatedStorage: 20
     engine: postgres
