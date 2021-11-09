@@ -9,7 +9,7 @@ spec:
     name: default  # aws-provider-config
   forProvider:
     region: eu-west-1
-    dbInstanceClass: db.t3.micro
+    dbInstanceClass: db.t2.micro
     masterUsername: masteruser
     allocatedStorage: 20
     engine: postgres
