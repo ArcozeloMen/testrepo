@@ -9,7 +9,7 @@ spec:
     name: default  #aws-provider-config
   forProvider:
     region: eu-west-1
-    dbInstanceClass: db.t2.small
+    dbInstanceClass: db.t3.small
     masterUsername: masteruser
     allocatedStorage: 20
     engine: postgres
@@ -18,4 +18,3 @@ spec:
   writeConnectionSecretToRef:
     namespace: crossplane-system
     name: aws-rdspostgresql-conn
-...
