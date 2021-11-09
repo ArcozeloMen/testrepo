@@ -6,7 +6,7 @@ metadata:
   namespace: crossplane-system
 spec:
   providerConfigRef:
-    name: aws-provider-config
+    name: default  #aws-provider-config
   forProvider:
     region: eu-west-1
     dbInstanceClass: db.t2.small
